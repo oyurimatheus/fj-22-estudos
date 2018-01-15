@@ -30,6 +30,6 @@ public class UsuarioController {
         return  new ModelAndView("usuario/cadastro");
     }
 
-    
+
 
 }
