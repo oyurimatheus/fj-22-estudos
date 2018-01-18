@@ -19,12 +19,6 @@ public class UsuarioController {
     @Autowired
     private Usuario usuario;
 
-    @Autowired
-    private Twit twit;
-
-    @Autowired
-    private TwitDao twitDao;
-
     @GetMapping(value = "/cadastro")
     public ModelAndView cadastro() {
         return  new ModelAndView("usuario/cadastro");
